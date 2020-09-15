@@ -1,0 +1,5 @@
+body {margin: 0;padding: 0;font-family: Arial, sans-serif;font-size: 14px;line-height: 150%;background: #eee;position: relative;height: 100%;}
+.headerContainer,.bodyContainer,.footerContainer {background-color: #FFF;max-width: 960px;margin: 0 auto;}
+.padding {padding: 20px;}
+.headerContainer .padding {padding-top: 0;padding-bottom: 0;}
+.bodyContainer {min-height: 500px;}
