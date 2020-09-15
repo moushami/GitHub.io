@@ -1,1 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Scroll to Section with jQuery</title>
+	<link rel="stylesheet" href="styles.css" />
 
+	<!-- Make sure to include the lastest jQuery library from http://jquery.com/download -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+
+<div class="headerContainerWrapper">
+	<div class="headerContainer">
+		<div class="padding">
+			Assignment 2:Jquery
+		</div>
+	</div>
+</div>
+
+<div class="bodyContainerWrapper">
+	<div class="bodyContainer">
+		<div class="padding">
+			
+			<h2>Go to <span style="color:orange;">(using buttons)</span></h2>
+			<p>
+				 
+				
+				 
+				
+				
+				
+				
+			</p>
+			<br /><br />
+			<table>
+				<tr>
+					<td>
+			<div id="section1">
+				<h1>Text1</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, quia.</p>
+				<p>Consectetur adipisicing elit. Sint quis rem veritatis laboriosam, mollitia dolorum facere impedit dolorem libero unde, placeat ducimus laudantium sapiente, suscipit quia id, ad nostrum! Harum!</p>
+				<p>Sint quis rem veritatis laboriosam, mollitia dolorum facere impedit dolorem libero unde, placeat ducimus laudantium sapiente, suscipit quia id, ad nostrum! Harum!</p>
+			</div>
+                </td></td><td><button onclick="scrollTos('#section2')">Down</button> </td>
+			<br />
+<tr><td>
+			<div id="section2">
+				<h1>Text2</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, quia.</p>
+				<p>Consectetur adipisicing elit. Sint quis rem veritatis laboriosam, mollitia dolorum facere impedit dolorem libero unde, placeat ducimus laudantium sapiente, suscipit quia id, ad nostrum! Harum!</p>
+				<p>Sint quis rem veritatis laboriosam, mollitia dolorum facere impedit dolorem libero unde, placeat ducimus laudantium sapiente, suscipit quia id, ad nostrum! Harum!</p>
+			</div>
+</td><td><button onclick="scrollTos('#section3')">Down</button> </td><td><button onclick="scrollTot('#section1')">Up</button> </td>
+</tr>
+			<br />
+<tr>
+	<td>
+			<div id="section3">
+				<h1>Text3</h1>
+				<p>Veritatis laboriosam, mollitia dolorum facere impedit dolorem libero unde, placeat ducimus laudantium sapiente, suscipit quia id, ad nostrum! Harum!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, quia.</p>
+				<p>Consectetur adipisicing elit. Sint quis rem veritatis laboriosam, mollitia dolorum facere impedit dolorem libero unde, placeat ducimus laudantium sapiente, suscipit quia id, ad nostrum! Harum!</p>
+			</div>
+
+		</td><td><button onclick="scrollTos('#section4')">Down</button> </td><td><button onclick="scrollTot('#section2')">Up</button> </td></tr>	<br />
+<tr><td>
+			<div id="section4">
+				<h1>Text4</h1>
+				<p>Veritatis laboriosam, mollitia dolorum facere impedit dolorem libero unde, placeat ducimus laudantium sapiente, suscipit quia id, ad nostrum! Harum!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, quia.</p>
+				<p>Consectetur adipisicing elit. Sint quis rem veritatis laboriosam, mollitia dolorum facere impedit dolorem libero unde, placeat ducimus laudantium sapiente, suscipit quia id, ad nostrum! Harum!</p>
+			</div>
+</td><td><button onclick="scrollTos('#section5')">Down</button> </td><td><button onclick="scrollTot('#section3')">Up</button></td></tr>
+			<br />
+<tr><td>
+			<div id="section5">
+				<h1>Text5</h1>
+				<p>Veritatis laboriosam, mollitia dolorum facere impedit dolorem libero unde, placeat ducimus laudantium sapiente, suscipit quia id, ad nostrum! Harum!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, quia.</p>
+				<p>Consectetur adipisicing elit. Sint quis rem veritatis laboriosam, mollitia dolorum facere impedit dolorem libero unde, placeat ducimus laudantium sapiente, suscipit quia id, ad nostrum! Harum!</p>
+				
+				
+				
+			</div></td><td><button onclick="scrollTos('#section6')">Down</button></td><td><button onclick="scrollTot('#section4')">Up</button> </td></tr>
+			<tr><td>
+			<div id="section6">
+				<h1>Text6</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius laudantium quia harum quis accusamus quibusdam, dolore eos asperiores nostrum, id. Eligendi commodi, aliquid, iste molestias accusamus saepe quaerat ipsa inventore in maxime facere aut autem aperiam odio velit iure ea, voluptatem eius provident ad voluptas itaque alias odit obcaecati voluptatum!</p>
+				<p>Praesentium porro fuga doloremque aperiam qui labore necessitatibus modi commodi ratione fugiat, dolorem debitis est repudiandae ipsum quasi iusto unde at autem officia maiores provident. Similique fugit vero, ipsam veritatis, unde saepe vitae maxime nam repellendus beatae, ipsa asperiores, officia voluptatem exercitationem quos at eaque! Aspernatur doloribus necessitatibus ipsa voluptas sunt ex repellat reprehenderit, similique harum iusto nemo dolor quae ipsum at rem officia in qui praesentium, quasi nisi eius incidunt temporibus atque consequuntur! Magni obcaecati veniam pariatur ut voluptates est velit iste commodi corporis explicabo! Provident consequatur deserunt maiores ad labore.</p>
+			</div></td><td><button onclick="scrollTos('#section7')">Down</button></td><td><button onclick="scrollTot('#section5')">Up</button></td></tr>
+			<tr><td>
+			<br /><br />
+			<br /><br />
+			<div id="section7">
+				<h1>Text7</h1>
+				<p>Veritatis laboriosam, mollitia dolorum facere impedit dolorem libero unde, placeat ducimus laudantium sapiente, suscipit quia id, ad nostrum! Harum!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, quia.</p>
+				<p>Consectetur adipisicing elit. Sint quis rem veritatis laboriosam, mollitia dolorum facere impedit dolorem libero unde, placeat ducimus laudantium sapiente, suscipit quia id, ad nostrum! Harum!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius laudantium quia harum quis accusamus quibusdam, dolore eos asperiores nostrum, id. Eligendi commodi, aliquid, iste molestias accusamus saepe quaerat ipsa inventore in maxime facere aut autem aperiam odio velit iure ea, voluptatem eius provident ad voluptas itaque alias odit obcaecati voluptatum!</p>
+				<p>Praesentium porro fuga doloremque aperiam qui labore necessitatibus modi commodi ratione fugiat, dolorem debitis est repudiandae ipsum quasi iusto unde at autem officia maiores provident. Similique fugit vero, ipsam veritatis, unde saepe vitae maxime nam repellendus beatae, ipsa asperiores, officia voluptatem exercitationem quos at eaque! Aspernatur doloribus necessitatibus ipsa voluptas sunt ex repellat reprehenderit, similique harum iusto nemo dolor quae ipsum at rem officia in qui praesentium, quasi nisi eius incidunt temporibus atque consequuntur! Magni obcaecati veniam pariatur ut voluptates est velit iste commodi corporis explicabo! Provident consequatur deserunt maiores ad labore.</p>
+			</div></td><td><button onclick="scrollTot('#section6')">Up</button> </td></tr>
+		
+			<br /><br />
+			<br /><br />
+		</table>
+		</div>
+		
+				 
+				 
+				 
+				
+				
+				
+	</div>
+</div>
+
+
+			
+			
+
+<script type="text/javascript">
+// Created by HTML-TUTS.com
+function scrollTos(id) {
+	if ($(id).length) {
+		var getOffset = $(id).offset().top;
+		var targetDistance = 20;
+		$('html,body').animate({
+			scrollTop: getOffset - targetDistance
+		}, 500);
+	}
+}
+function scrollTot(id) {
+	if ($(id).length) {
+		var getOffset = $(id).offset().top;
+		var targetDistance = 20;
+		$('html,body').animate({
+			scrollTop: getOffset - targetDistance
+		}, 500);
+	}
+}
+
+
+</script>
+
+</body>
+</html>
